@@ -1,0 +1,271 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>KUJIRA CAFE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'erl1bjr',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+    <!-- reset.css destyle -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jfn2zub.css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<html>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="sozai/logo.png" alt="クジラカフェ"></a></li>
+                <li><a href="#" class="hover_border">HOME</a></li>
+                <li><a href="#about" class="hover_border">ABOUT</a></li>
+                <li><a href="#menu" class="hover_border">MENU</a></li>
+                <li><a href="#shop" class="hover_border">SHOP</a></li>
+                <li><a href="#news" class="hover_border">NEWS</a></li>
+                <li><a href="#reserve" class='nav_reserve'>RESERVATION</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>KUJIRA CAFE</h1>
+        <!-- background-image　<img src="sozai/IMG_2424.JPG" alt="TOPメニュー"> -->
+        <div class="yazirusi">
+            <div class="line01"></div>
+            <div class="line02"></div>
+        </div>
+        <!--==========ABOUT==========-->
+        <article id="about">
+            <div class="about_wrapper">
+                <div>
+                    <h2><span class="h2_color">“</span>Welcome to KUJIRA CAFE</h2>
+                    <div class="border">
+                        <!-- border -->
+                    </div>
+                </div>
+                <div class="wrapper_block">
+                    <h3>手作りタルトと香り高い珈琲で、寛ぎのカフェタイムを</h3>
+                    <p>
+                        大海原を悠然と泳ぐクジラの姿を見たことがあるでしょうか。そのゆったりとした動きや優しい眼差しを見ていると、慌ただしい日常が遠い世界のできごとのように感じられるのです。時間が経つのも忘れて、ただただクジラを眺めてぼーっと過ごしたひとときの心の充実を、私は今も忘れません。
+                        そんなゆったりとした時間を過ごせるカフェがあったら……そんな思いでつくったのが、このKUJIRA CAFEです。<br>
+                        皆さまのお越しを心よりお待ちしております。
+                    </p>
+                    <p>
+                        KUJIRA Cafe 店主<br>
+                        鯨井コウタ<br>
+                    </p>
+                    <!-- modal ボタン-->
+                    <button id="modal_btn">
+                            <span>ABOUT MORE</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- modal 表示要素 -->
+            <div class="modal hide">
+                <h4>手作りタルトと香り高い珈琲で、寛ぎのカフェタイムを</h4>
+                <p>
+                    大海原を悠然と泳ぐクジラの姿を見たことがあるでしょうか。そのゆったりとした動きや優しい眼差しを見ていると、慌ただしい日常が遠い世界のできごとのように感じられるのです。時間が経つのも忘れて、ただただクジラを眺めてぼーっと過ごしたひとときの心の充実を、私は今も忘れません。
+                    そんなゆったりとした時間を過ごせるカフェがあったら……そんな思いでつくったのが、このKUJIRA
+                    CAFEです。古材を活用した味わいのある内装、花と緑に囲まれたテラス。旬の味覚をふんだんに使ったタルトや、地元の野菜にこだわったキッシュは、どれも手作りです。コーヒーは注文をいただいてから焙煎し、挽きたての香りをお楽しみいただいております。
+                    天気のいい日には、自然を感じられるテラス席もおすすめ。テラス席のみ、ペットの同伴もOKです。おひとり様もお子様連れの方も、お気に入りのお席で、思い思いの時間をゆったりとお過ごしください。
+                </p>
+                <p>カフェでの時間をより楽しいものにしていただくべく、フラワーアレンジメントの講座や絵本の読み聞かせ、作品展やライブなど、さまざまなイベントも開催しております。スケジュールは<a
+                        href="#news">＜News＞</a>で告知いたしますので、ご確認くださいませ。</p>
+                <p>皆さまのお越しを心よりお待ちしております。</p>
+                <p>
+                    KUJIRA Cafe 店主<br>
+                    鯨井コウタ
+                </p>
+            </div>
+
+            <!-- background-image -->
+            <div class="block_back_img">
+                <div class="container_back_img">
+                    <div class="menu_back_img_1"></div>
+                    <div class="menu_back_img_2"></div>
+                    <div class="menu_back"></div>
+                </div>
+            </div>
+
+        </article>
+        <!--==========MENU==========-->
+        <article id="menu">
+            <h2><span class="h2_color">“</span>Delicious and wholehearted hospitality</h2>            
+            <div class="border">
+                <!-- border -->
+            </div>
+                <dl>
+                    <div class="menu_container">
+                        <div class="menu_1">
+                            <dd><img src="sozai/menu-photo1.jpg" alt="カシスとオレンジのジュース"></dd>
+                            <div>
+                                <dt>カシスとオレンジのジュース</dt>
+                                <dd>リキュールを使ったカクテルでおなじみのカシスは、ポリフェノールやビタミンが豊富なベリー系のフルーツです。オレンジとともにジューサーにかけて、爽やかなドリンクに仕上げました。</dd>                            
+                                <dd class="price">￥480</dd>
+                            </div>
+                        </div>
+
+                        <div class="menu_2">
+                            <dd><img src="sozai/menu-photo2.jpg" alt="ナッツのタルト"></dd>
+                            <div>
+                                <dt>ナッツのタルト</dt>
+                                <dd>ピーカンナッツにアーモンド、くるみ、ヘーゼルナッツ、パンプキンシード。5種類のナッツを贅沢にトッピングした当店の定番タルトです。黒糖を使用したコクのある甘味は、コーヒーのお供にぴったりです。</dd>
+                                <dd class="price">￥550</dd>
+                            </div>
+                        </div>
+
+                        <div class="menu_3">
+                            <dd><img src="sozai/menu-photo3.jpg" alt="太陽プラムのタルト"></dd>
+                            <div>
+                                <dt>太陽プラムのタルト</dt>
+                                <dd>今月の旬のタルトはこちら。山梨産のプラム「太陽」を使用しています。太陽は、完熟すると酸味が抜けて、驚くほど甘くなります。クリームチーズを混ぜ込んだフィリングとも相性抜群。この時期だけの味、ぜひお試しください。</dd>
+                                <dd class="price">￥600</dd>
+                            </div>
+                        </div>
+                    </div>
+                </dl>
+            </div>
+        </article>
+
+        <!-- MENUとSHOPの区切り -->
+        <div class="text-line">
+            <p><img src="sozai/logo.png" alt="クジラカフェロゴ"></p>
+          </div>
+
+        <!--==========SHOP==========-->
+        <article id="shop">
+            <h2><span class="h2_color">“</span>KUJIRA CAFE DATA</h2>
+            <div class="border">
+                <!-- border -->
+            </div>
+            <div class="block_map">
+                <div class="container">
+                    <p> KUJIRA CAFE<br>
+                        <span class="h2_color">“</span>KUJIRA-EKI<span class="h2_color">”</span></p>
+                    <div class="map_back1"></div>
+                    <div class="map_back2"></div>
+                </div>
+            </div>
+            <div class="location">
+                <h3>Location</h3>
+                <dl>
+                <div class="container">
+                    <div class="area1-1 dt"><dt><span>address</span></dt></div>
+                    <div class="area1-2">
+                        <div class="border_center">
+                            <div class="line01"></div>
+                        </div>
+                    </div>
+                    <div class="area1-3"><dd>〒199-9999</dd></div>
+                    <div class="area2-1 dt"></div>
+                    <div class="area2-2"></div>
+                    <div class="area2-3"><dd>或留県九寺楽市九寺楽町3-30-8</dd></div>
+                    <div class="area3-1 dt"><dt><span>number</span></dt></div>
+                    <div class="area3-2">
+                        <div class="border_center">
+                            <div class="line01"></div>
+                        </div>
+                    </div>
+                    <div class="area3-3"><dd><address><a href="tel:09-9280-2611">09-9280-2611</a></address></dd></div>
+                    <div class="area4-1 dt"><dt><span>open</span></dt></div>
+                    <div class="area4-2">
+                        <div class="border_center">
+                            <div class="line01"></div>
+                        </div>
+                    </div>
+                    <div class="area4-3"><dd>10:00～22:00</dd></div>
+                    <div class="area5-1 dt"><dt><span>regular holiday</span></dt></div>
+                    <div class="area5-2">
+                        <div class="border_center">
+                            <div class="line01"></div>
+                        </div>
+                    </div>
+                    <div class="area5-3"><dd>水曜日・日曜日</dd></div>
+                  </div>  
+                </dl>
+            </div>
+        </article>
+
+        <!--==========RESORVE==========-->
+        <article id="reserve">
+            <h2><span class="h2_color">“</span>KUJIRA CAFE RESERVE</h2>
+            <div class="border">
+                <!-- border -->
+            </div>
+            <div class="reserve_back">
+                <p class="inline_text">KUJIRA CAFE<br>
+                    <span class="h2_color">“</span>RESERVE<span class="h2_color">”</span>
+                </p>
+                <div class="container_reserve">                    
+                    <div class="area1">a</div>
+                    <div class="area2"></div>
+                </div>
+            </div>
+            <div class="reserve_block">
+                <h3>Reservation</h3>
+                <p>ご予約は、お電話もしくはお問い合わせフォームより受け付けております。<br>
+                    ご予約希望日時と人数をお知らせください。</p>
+                    <p class="sub_text">※フォームからのご予約にはお時間がかかる場合がございますので、ご了承ください。</p>
+                <button id="modal_btn">
+                    <span>RESERVATION</span>
+                </button>
+            </div>
+        </article>
+
+        <!--==========NEWS==========-->
+        <article id="news">
+            <h2><span class="h2_color">“</span>RECENT NEWS</h2>
+            <div class="border">
+                <!-- border -->
+            </div>
+            <div class="big_news">
+                <div class="container">
+                    <div class="news_area1"><p><img src="./sozai/news.png" class="news_img"></p></div>
+                    <div class="news_area2"><p class="date"><span class="big_date">2</span>021/03/29</p>
+                        <p class="news_text">4月29日（土）は、九寺楽町の春祭りに出店するため、お店は休業させていたただきます。春祭りでタルトやキッシュ、コーヒーも販売するので、ぜひお越しください。</p>
+                    </div>
+                    <div class="news_area3"><div class=stickarrow></div></div>
+            
+                    <div class="news_area4"><p><img src="./sozai/news.png" class="news_img"></p></div>
+                    <div class="news_area5"><p class="date"><span class="big_date">2</span>021/02/20</p>
+                        <p class="news_text">3月20日（月・祝）は、18時からアコースティックギターデュオ「PICNIC」のライブを開催します。投げ銭方式です。お楽しみに！</p>
+                    </div>
+                    <div class="news_area6"><div class=stickarrow></div></div>
+                    
+                    <div class="news_bigarea1"></div>
+                    <div class="news_bigarea2"></div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <div>
+            <ul>
+                <li><a href=""><img src="sozai/icon_instagram.png" alt="Instagram"></a></li>
+                <li><a href=""><img src="sozai/icon_twitter.png" alt="Twitter"></a></li>
+                <li><a href=""><img src="sozai/icon_facebook.png" alt="Facebook"></a></li>
+            </ul>
+            <p class="small"><small>© KUJIRA Cafe. All rights reserved.</small></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
